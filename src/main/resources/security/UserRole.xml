@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user username="muhasebe_admin" password="muhasebe_admin">
+        <roles>
+            <role name = "ROLE_MUHASEBE_ADMIN_MHS"/>
+        </roles>
+        <muhasebebirimleri>
+            <muhasebebirimi id = "180000" ad = "Çankaya Malmüdürlüğü" ></muhasebebirimi>
+            <muhasebebirimi id = "180001" ad = "Yenimahalle Malmüdürlüğü"></muhasebebirimi>
+            <muhasebebirimi id = "180006" ad = "Maliye Bakanlığı Merkez Saymanlık"></muhasebebirimi>
+        </muhasebebirimleri>
+    </user>
+    <user username="muhasebe_yetkili" password="muhasebe_yetkili">
+        <roles>
+            <role name = "ROLE_MUHASEBE_YETKILI_MHS"/>
+        </roles>
+        <muhasebebirimleri>
+            <muhasebebirimi id = "180000" ad = "Çankaya Malmüdürlüğü"></muhasebebirimi>
+            <muhasebebirimi id = "180006" ad = "Maliye Bakanlığı Merkez Saymanlık"></muhasebebirimi>
+        </muhasebebirimleri>
+    </user>
+    <user username="muhasebe_oku" password="muhasebe_oku">
+        <roles>
+            <role name = "ROLE_MUHASEBE_OKU_MHS"/>
+        </roles>
+        <muhasebebirimleri>
+            <muhasebebirimi id = "180000" ad = "Çankaya Malmüdürlüğü" ></muhasebebirimi>
+        </muhasebebirimleri>
+    </user>
+</users>

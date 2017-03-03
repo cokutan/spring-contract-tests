@@ -1,0 +1,13 @@
+spring:
+ profiles.active: development
+ cloud:
+  zookeeper.enabled: false
+  consul.enable: false
+eureka.client.enabled: false
+stubrunner:
+  camel.enabled: false
+  cloud.ribbon.enabled: true
+  integration.enabled: true
+  stream.enabled: false
+  repositoryRoot: http://yte-nexus:8081/nexus/content/repositories/snapshots
+

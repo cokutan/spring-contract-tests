@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="maliYilDegisikligiPubSubProducer" class="tr.gov.tubitak.bilgem.yte.maliye.pubsub.producer.PubSubProducerImpl">
+        <constructor-arg name="topic" value="MaliYilDegisikligiTopic"></constructor-arg>
+    </bean>
+
+    <bean id="kapanisMessageSenderFactory"
+          class="tr.gov.tubitak.bilgem.yte.maliye.pubsub.producer.tokafka.KafkaMessageSenderFactory">
+        <constructor-arg name="pubSubProducer" ref="maliYilDegisikligiPubSubProducer"></constructor-arg>
+        <constructor-arg name="numberOfPartitions" value="1"></constructor-arg>
+        <constructor-arg name="executionPeriodInSeconds" value="1"></constructor-arg>
+    </bean>
+</beans>

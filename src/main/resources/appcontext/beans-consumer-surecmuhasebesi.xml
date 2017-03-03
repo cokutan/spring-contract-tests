@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="surecMuhasebesiProcessor"
+          class="tr.gov.tubitak.bilgem.yte.maliye.entegrasyon.surecmuhasebesi.service.SurecMuhasebesiConsumer"/>
+
+    <bean id="surecMuhasebesiMessageConsumer"
+          class="tr.gov.tubitak.bilgem.yte.maliye.pubsub.consumer.PubSubConsumerFactory">
+        <constructor-arg name="topic" value="SurecMuhasebesiTopic"></constructor-arg>
+        <constructor-arg name="messageProcessor" ref="surecMuhasebesiProcessor"></constructor-arg>
+        <constructor-arg name="messageParameterClass"
+                         value="tr.gov.tubitak.bilgem.yte.maliye.entegrasyon.surecmuhasebesi.entity.SurecMuhasebeKaydiListDTO"></constructor-arg>
+        <constructor-arg name="numberOfPartitions" value="1"></constructor-arg>
+        <constructor-arg name="executionPeriodInSeconds" value="1"></constructor-arg>
+    </bean>
+</beans>

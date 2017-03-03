@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<roles>
+    <role name="ROLE_MUHASEBE_ADMIN_MHS" description="ROLE_ADMIN">
+        <permissions>
+            <permission name="ROLE_CERCEVE_HESAP_PLANI_OKU_MHS" description="ROLE_CERCEVE_HESAP_PLANI_OKU_MHS"/>
+            <permission name="ROLE_CERCEVE_HESAP_PLANI_DEGISTIR_MHS" description="ROLE_CERCEVE_HESAP_PLANI_DEGISTIR_MHS"/>
+            <permission name="ROLE_HARCAMA_BIRIMI_OKU_MHS" description="ROLE_HARCAMA_BIRIMI_OKU_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_KODU_OKU_MHS" description="ROLE_KURUM_HESAP_KODU_OKU_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_KODU_DEGISTIR_MHS" description="ROLE_KURUM_HESAP_KODU_DEGISTIR_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_PLANI_OKU_MHS" description="ROLE_KURUM_HESAP_PLANI_OKU_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_PLANI_DEGISTIR_MHS" description="ROLE_KURUM_HESAP_PLANI_DEGISTIR_MHS"/>
+            <permission name="ROLE_MUHASEBE_BIRIMI_OKU_MHS" description="ROLE_MUHASEBE_BIRIMI_OKU_MHS"/>
+            <permission name="ROLE_YERLESIM_BIRIMI_OKU_MHS" description="ROLE_YERLESIM_BIRIMI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_FISI_OKU_MHS" description="ROLE_MUHASEBE_FISI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_FISI_DEGISTIR_MHS" description="ROLE_MUHASEBE_FISI_DEGISTIR_MHS"/>
+            <permission name="ROLE_MUHASEBE_KAYDI_OKU_MHS" description="ROLE_MUHASEBE_KAYDI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_KAYDI_DEGISTIR_MHS" description="ROLE_MUHASEBE_KAYDI_DEGISTIR_MHS"/>
+            <permission name="ROLE_MUHASEBE_KURALI_OKU_MHS" description="ROLE_MUHASEBE_KURALI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_KURALI_DEGISTIR_MHS" description="ROLE_MUHASEBE_KURALI_DEGISTIR_MHS"/>
+            <permission name="ROLE_HESAP_KODU_ILISKISI_OKU_MHS" description="ROLE_HESAP_KODU_ILISKISI_OKU_MHS"/>
+            <permission name="ROLE_HESAP_KODU_ILISKISI_DEGISTIR_MHS" description="ROLE_HESAP_KODU_ILISKISI_DEGISTIR_MHS"/>
+            <permission name="ROLE_ORTAK_HESAP_PLANI_OKU_MHS" description="ROLE_ORTAK_HESAP_PLANI_OKU_MHS"/>
+            <permission name="ROLE_ORTAK_HESAP_PLANI_DEGISTIR_MHS" description="ROLE_ORTAK_HESAP_PLANI_DEGISTIR_MHS"/>
+            <permission name="ROLE_ORTAK_HESAP_KODU_OKU_MHS" description="ROLE_ORTAK_HESAP_KODU_OKU_MHS"/>
+            <permission name="ROLE_ORTAK_HESAP_KODU_DEGISTIR_MHS" description="ROLE_ORTAK_HESAP_KODU_DEGISTIR_MHS"/>
+            <permission name="ROLE_TASLAK_MUHASEBE_KAYDI_OKU_MHS" description="ROLE_TASLAK_MUHASEBE_KAYDI_OKU_MHS"/>
+            <permission name="ROLE_TASLAK_MUHASEBE_KAYDI_DEGISTIR_MHS" description="ROLE_TASLAK_MUHASEBE_KAYDI_DEGISTIR_MHS"/>
+            <permission name="ROLE_TASLAK_MUHASEBE_KAYDI_MERKEZ_MHS" description="ROLE_TASLAK_MUHASEBE_KAYDI_MERKEZ_MHS"/>
+            <permission name="ROLE_MUHASEBE_GIRIS_MHS" description="ROLE_MUHASEBE_GIRIS_MHS"/>
+            <permission name="ROLE_MUHASEBE_ADMIN_MHS" description="ROLE_MUHASEBE_ADMIN_MHS"/>
+            <permission name="ROLE_KAMU_IDARESI_OKU_MHS" description="ROLE_KAMU_IDARESI_OKU_MHS"/>
+            <permission name="ROLE_DONEM_SONU_OKU_MHS" description="ROLE_DONEM_SONU_OKU_MHS"/>
+            <permission name="ROLE_DONEM_SONU_DEGISTIR_MHS" description="ROLE_DONEM_SONU_DEGISTIR_MHS"/>
+            <permission name="ROLE_HESAP_KODU_ETIKETI_OKU_MHS" description="ROLE_HESAP_KODU_ETIKETI_OKU_MHS"/>
+            <permission name="ROLE_HESAP_KODU_ETIKETI_DEGISTIR_MHS" description="ROLE_HESAP_KODU_ETIKETI_DEGISTIR_MHS"/>
+            <permission name="ROLE_RAPOR_OKU_MHS" description="ROLE_RAPOR_OKU_MHS"/>
+            <permission name="ROLE_IDARI_ISLEMLER_DEVIR_OKU_MHS" description="ROLE_IDARI_ISLEMLER_DEVIR_OKU_MHS"/>
+            <permission name="ROLE_IDARI_ISLEMLER_DEVIR_DEGISTIR_MHS" description="ROLE_IDARI_ISLEMLER_DEVIR_DEGISTIR_MHS"/>
+            <permission name="ROLE_KAMU_IDARESI_DEGISTIR_MHS" description="ROLE_KAMU_IDARESI_DEGISTIR_MHS"/>
+        </permissions>
+    </role>
+    <role name="ROLE_MUHASEBE_YETKILI_MHS" description="ROLE_USER">
+        <permissions>
+            <permission name="ROLE_CERCEVE_HESAP_PLANI_OKU_MHS" description="ROLE_CERCEVE_HESAP_PLANI_OKU_MHS"/>
+            <permission name="ROLE_HARCAMA_BIRIMI_OKU_MHS" description="ROLE_HARCAMA_BIRIMI_OKU_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_KODU_OKU_MHS" description="ROLE_KURUM_HESAP_KODU_OKU_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_KODU_DEGISTIR_MHS" description="ROLE_KURUM_HESAP_KODU_DEGISTIR_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_PLANI_OKU_MHS" description="ROLE_KURUM_HESAP_PLANI_OKU_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_PLANI_DEGISTIR_MHS" description="ROLE_KURUM_HESAP_PLANI_DEGISTIR_MHS"/>
+            <permission name="ROLE_MUHASEBE_BIRIMI_OKU_MHS" description="ROLE_MUHASEBE_BIRIMI_OKU_MHS"/>
+            <permission name="ROLE_YERLESIM_BIRIMI_OKU_MHS" description="ROLE_YERLESIM_BIRIMI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_FISI_OKU_MHS" description="ROLE_MUHASEBE_FISI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_FISI_DEGISTIR_MHS" description="ROLE_MUHASEBE_FISI_DEGISTIR_MHS"/>
+            <permission name="ROLE_MUHASEBE_KAYDI_OKU_MHS" description="ROLE_MUHASEBE_KAYDI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_KAYDI_DEGISTIR_MHS" description="ROLE_MUHASEBE_KAYDI_DEGISTIR_MHS"/>
+            <permission name="ROLE_MUHASEBE_KURALI_OKU_MHS" description="ROLE_MUHASEBE_KURALI_OKU_MHS"/>
+            <permission name="ROLE_HESAP_KODU_ILISKISI_OKU_MHS" description="ROLE_HESAP_KODU_ILISKISI_OKU_MHS"/>
+            <permission name="ROLE_ORTAK_HESAP_PLANI_OKU_MHS" description="ROLE_ORTAK_HESAP_PLANI_OKU_MHS"/>
+            <permission name="ROLE_ORTAK_HESAP_KODU_OKU_MHS" description="ROLE_ORTAK_HESAP_KODU_OKU_MHS"/>
+            <permission name="ROLE_TASLAK_MUHASEBE_KAYDI_OKU_MHS" description="ROLE_TASLAK_MUHASEBE_KAYDI_OKU_MHS"/>
+            <permission name="ROLE_TASLAK_MUHASEBE_KAYDI_DEGISTIR_MHS" description="ROLE_TASLAK_MUHASEBE_KAYDI_DEGISTIR_MHS"/>
+            <permission name="ROLE_MUHASEBE_GIRIS_MHS" description="ROLE_MUHASEBE_GIRIS_MHS"/>
+            <permission name="ROLE_MUHASEBE_YETKILI_MHS" description="ROLE_MUHASEBE_YETKILI_MHS"/>
+            <permission name="ROLE_KAMU_IDARESI_OKU_MHS" description="ROLE_KAMU_IDARESI_OKU_MHS"/>
+            <permission name="ROLE_DONEM_SONU_OKU_MHS" description="ROLE_DONEM_SONU_OKU_MHS"/>
+            <permission name="ROLE_DONEM_SONU_DEGISTIR_MHS" description="ROLE_DONEM_SONU_DEGISTIR_MHS"/>
+            <permission name="ROLE_HESAP_KODU_ETIKETI_OKU_MHS" description="ROLE_HESAP_KODU_ETIKETI_OKU_MHS"/>
+            <permission name="ROLE_RAPOR_OKU_MHS" description="ROLE_RAPOR_OKU_MHS"/>
+            <permission name="ROLE_IDARI_ISLEMLER_DEVIR_OKU_MHS" description="ROLE_IDARI_ISLEMLER_DEVIR_OKU_MHS"/>
+            <permission name="ROLE_IDARI_ISLEMLER_DEVIR_DEGISTIR_MHS" description="ROLE_IDARI_ISLEMLER_DEVIR_DEGISTIR_MHS"/>
+            <permission name="ROLE_KAMU_IDARESI_DEGISTIR_MHS" description="ROLE_KAMU_IDARESI_DEGISTIR_MHS"/>
+        </permissions>
+    </role>
+    <role name="ROLE_MUHASEBE_OKU_MHS" description="ROLE_USER">
+        <permissions>
+            <permission name="ROLE_HARCAMA_BIRIMI_OKU_MHS" description="ROLE_HARCAMA_BIRIMI_OKU_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_KODU_OKU_MHS" description="ROLE_KURUM_HESAP_KODU_OKU_MHS"/>
+            <permission name="ROLE_KURUM_HESAP_PLANI_OKU_MHS" description="ROLE_KURUM_HESAP_PLANI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_BIRIMI_OKU_MHS" description="ROLE_MUHASEBE_BIRIMI_OKU_MHS"/>
+            <permission name="ROLE_YERLESIM_BIRIMI_OKU_MHS" description="ROLE_YERLESIM_BIRIMI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_FISI_OKU_MHS" description="ROLE_MUHASEBE_FISI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_KAYDI_OKU_MHS" description="ROLE_MUHASEBE_KAYDI_OKU_MHS"/>
+            <permission name="ROLE_ORTAK_HESAP_PLANI_OKU_MHS" description="ROLE_ORTAK_HESAP_PLANI_OKU_MHS"/>
+            <permission name="ROLE_ORTAK_HESAP_KODU_OKU_MHS" description="ROLE_ORTAK_HESAP_KODU_OKU_MHS"/>
+            <permission name="ROLE_TASLAK_MUHASEBE_KAYDI_OKU_MHS" description="ROLE_TASLAK_MUHASEBE_KAYDI_OKU_MHS"/>
+            <permission name="ROLE_MUHASEBE_GIRIS_MHS" description="ROLE_MUHASEBE_GIRIS_MHS"/>
+            <permission name="ROLE_MUHASEBE_OKU_MHS" description="ROLE_MUHASEBE_OKU_MHS"/>
+            <permission name="ROLE_KAMU_IDARESI_OKU_MHS" description="ROLE_KAMU_IDARESI_OKU_MHS"/>
+            <permission name="ROLE_RAPOR_OKU_MHS" description="ROLE_RAPOR_OKU_MHS"/>
+        </permissions>
+    </role>
+</roles>

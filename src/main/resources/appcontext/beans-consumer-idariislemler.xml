@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="idariIslemlerProcessor"
+          class="tr.gov.tubitak.bilgem.yte.maliye.entegrasyon.idariislemler.service.IdariIslemlerConsumer"></bean>
+
+    <bean id="idariIslemlerMessageConsumer"
+          class="tr.gov.tubitak.bilgem.yte.maliye.pubsub.consumer.PubSubConsumerFactory">
+        <constructor-arg name="topic" value="IdariIslemlerTopic"></constructor-arg>
+        <constructor-arg name="messageProcessor" ref="idariIslemlerProcessor"></constructor-arg>
+        <constructor-arg name="messageParameterClass"
+                         value="tr.gov.tubitak.bilgem.yte.maliye.entegrasyon.idariislemler.entity.IdariIslemlerChangeDTO"></constructor-arg>
+        <constructor-arg name="numberOfPartitions" value="1"></constructor-arg>
+        <constructor-arg name="executionPeriodInSeconds" value="1"></constructor-arg>
+    </bean>
+</beans>
